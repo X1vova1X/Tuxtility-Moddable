@@ -224,6 +224,18 @@
                         }
                     },
                     {
+                        opcode: 'FAVI',
+                        blockType: Scratch.BlockType.COMMAND,
+                        text: "Set favicon to [FAVI]",
+                        disableMonitor: true,
+                        arguments: {
+                            FAVI: {
+                                type: Scratch.ArgumentType.STRING,
+                                defaultValue: 'https://i.ibb.co/mTsG0Jg/tuxlogo.png'
+                            }
+                        }
+                    },
+                    {
                         opcode: 'CURTITLE',
                         blockType: Scratch.BlockType.REPORTER,
                         text: 'Current Title',
@@ -345,24 +357,6 @@
                         blockType: Scratch.BlockType.REPORTER,
                         text: "This Extension's Version",
                         disableMonitor: true
-                    },
-                    {
-                        opcode: 'TTESTBLOCK',
-                        blockType: Scratch.BlockType.LABEL,
-                        text: "Test blocks",
-                        disableMonitor: true
-                    },
-                    {
-                        opcode: 'FAVI',
-                        blockType: Scratch.BlockType.COMMAND,
-                        text: "Set favicon to [FAVI]",
-                        disableMonitor: true,
-                        arguments: {
-                            FAVI: {
-                                type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'https://i.ibb.co/mTsG0Jg/tuxlogo.png'
-                            }
-                        }
                     },
                 ],
                 menus: {
