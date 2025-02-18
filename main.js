@@ -131,7 +131,7 @@
                             },
                             WID: {
                                 type: Scratch.ArgumentType.NUMBER,
-                                defaultValue: 50
+                                defaultValue: 900
                             },
                             HIE: {
                                 type: Scratch.ArgumentType.NUMBER,
@@ -370,7 +370,7 @@
             }
         }
         POPUP(args) {
-            Scratch.openWindow(args.LINK, `width=${args.WID},height=${args.HIES}`);
+            Scratch.openWindow(args.LINK, `width=${args.WID},height=${args.HIE}`);
         }
         STORE(args) {
             localStorage.setItem(args.VAR, args.STUFF)
@@ -442,7 +442,7 @@
             return Scratch.fetch('https://raw.githubusercontent.com/KoffeeJava/Entity-lol/refs/heads/main/secret/Tux.txt').then(response => response.text()).then(text => text).catch(error => alert('An error has occured! \n ' + error, '\n\n Make sure that your internet is on.'))
         }
         THIS() {
-            return "2.1"
+            return "Nightly"
         }
     }
     Scratch.extensions.register(new TuxtiltiyJS());
