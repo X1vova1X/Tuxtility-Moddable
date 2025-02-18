@@ -113,7 +113,7 @@
                         arguments: {
                             LINK: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'https://google.com'
+                                defaultValue: 'https://example.com/'
                             },
                             REDER: {
                                 type: Scratch.ArgumentType.STRING,
@@ -128,7 +128,7 @@
                         arguments: {
                             LINK: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'https://google.com'
+                                defaultValue: 'https://example.com/'
                             },
                             WID: {
                                 type: Scratch.ArgumentType.NUMBER,
@@ -188,7 +188,7 @@
                         arguments: {
                             LINK: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'https://theoldnet.com'
+                                defaultValue: 'https://example.com/'
                             }
                         }
                     },
@@ -324,7 +324,7 @@
                         items: ['Redirect', 'New Tab']
                     },
                     LOGTX: {
-                        acceptReporters: true,
+                        acceptReporters: false,
                         items: ['Log', 'Warn', 'Error']
                     }
                 }
