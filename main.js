@@ -187,7 +187,7 @@
                         arguments: {
                             LINK: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'https://example.com/'
+                                defaultValue: 'https://frogfind.com/'
                             }
                         }
                     },
