@@ -1,7 +1,6 @@
 /*
-    This is a nightly realase!
-    This may include unstable/broken blocks!
-
+    This is a development version and is not made to be used for regular projects.
+    please get the extension via the releases or the discord server.
 
     Please read the license before modifying and distributing
     https://tinyurl.com/tuxtility
