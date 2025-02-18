@@ -82,7 +82,7 @@
                         arguments: {
                             TEXT: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'Hello :)'
+                                defaultValue: "What's your name?"
                             }
                         }
                     },
@@ -131,11 +131,11 @@
                             },
                             WID: {
                                 type: Scratch.ArgumentType.NUMBER,
-                                defaultValue: 900
+                                defaultValue: 50
                             },
                             HIE: {
                                 type: Scratch.ArgumentType.NUMBER,
-                                defaultValue: 900
+                                defaultValue: 50
                             }
                         }
                     },
