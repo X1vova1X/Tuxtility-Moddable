@@ -135,7 +135,7 @@
                             },
                             HIE: {
                                 type: Scratch.ArgumentType.NUMBER,
-                                defaultValue: 50
+                                defaultValue: 900
                             }
                         }
                     },
