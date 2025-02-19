@@ -1,5 +1,5 @@
 /*
-    This is a development version and is not made to be used for regular projects.
+    This is a nightly version and is not made to be used for regular projects.
     please get the extension via the releases or the discord server.
 
     Please read the license before modifying and distributing
