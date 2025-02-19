@@ -151,7 +151,7 @@
                             },
                             STUFF: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'sudo dnf install Tuxtility'
+                                defaultValue: 'sudo pacman -S Tuxtility'
                             }
                         }
                     },
