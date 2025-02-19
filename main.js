@@ -409,6 +409,9 @@
             link.href = args.FAVI;
 
         }
+        CURTITLE() {
+            return document.title;
+        }
         WHATOS() {
             return window.navigator.platform
         }
