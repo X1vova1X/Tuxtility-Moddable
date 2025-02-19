@@ -50,7 +50,7 @@
                         arguments: {
                             ICO: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'https://i.ibb.co/mTsG0Jg/tuxlogo.png'
+                                defaultValue: 'https://tinyurl.com/util-tux'
                             },
                             TITLE: {
                                 type: Scratch.ArgumentType.STRING,
@@ -234,7 +234,7 @@
                         arguments: {
                             FAVI: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'https://i.ibb.co/mTsG0Jg/tuxlogo.png'
+                                defaultValue: 'https://tinyurl.com/util-tux'
                             }
                         }
                     },
