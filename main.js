@@ -282,7 +282,7 @@
                     {
                         opcode: 'ISON',
                         blockType: Scratch.BlockType.BOOLEAN,
-                        text: "Is Online?",
+                        text: "Online?",
                         disableMonitor: true
                     },
                     {
