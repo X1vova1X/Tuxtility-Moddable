@@ -9,7 +9,7 @@
 (function (Scratch) {
     'use strict';
 
-    alert("This is an Nightly (pre-alpha) version of Tutility\nPlease get the latest version on the github repo.")
+    alert("This is an Nightly (pre-alpha) version of Tuxtility\nPlease get the latest version on the github repo.")
     if (!Scratch.extensions.unsandboxed) {
         alert('This Extension must run unsandboxed');
     }
@@ -440,7 +440,7 @@
             return navigator.onLine
         }
         LANG() {
-            return Navigator.language();
+            return navigator.language();
         }
         LOGTX(args) {
             if (args.LOGTX === 'Log') {
