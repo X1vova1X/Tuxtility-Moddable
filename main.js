@@ -108,7 +108,6 @@
                         opcode: 'WEB',
                         blockType: Scratch.BlockType.COMMAND,
                         text: '[REDER] to [LINK]',
-                        blockIconURI: '',
                         disableMonitor: true,
                         arguments: {
                             LINK: {
