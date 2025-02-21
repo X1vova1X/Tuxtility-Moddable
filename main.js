@@ -9,6 +9,7 @@
 (function (Scratch) {
     'use strict';
 
+    alert("this is an Nightly (pre-alpha) version of Tutility\nPlease get the latest version on the github repo.")
     if (!Scratch.extensions.unsandboxed) {
         alert('This Extension must run unsandboxed');
     }
