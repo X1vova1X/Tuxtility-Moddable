@@ -290,6 +290,7 @@
                     {
                         opcode: 'LANG',
                         blockType: Scratch.BlockType.REPORTER,
+                        disableMonitor: true,
                         text: "Browser's Languge"
                     },
                     {
@@ -439,7 +440,7 @@
             return navigator.onLine
         }
         LANG() {
-            return Navigator.language
+            return Navigator.language();
         }
         LOGTX(args) {
             if (args.LOGTX === 'Log') {
