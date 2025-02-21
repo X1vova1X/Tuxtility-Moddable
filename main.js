@@ -273,6 +273,12 @@
                         disableMonitor: true
                     },
                     {
+                        opcode: 'ISON',
+                        blockType: Scratch.BlockType.BOOLEAN,
+                        text: "Is Online?",
+                        disableMonitor: true
+                    },
+                    {
                         opcode: 'TEXTUTIL',
                         blockType: Scratch.BlockType.LABEL,
                         text: 'Text Utilitys'
@@ -417,6 +423,9 @@
         }
         WHATWEB() {
             return (/firefox|chrome|safari|opera|edg|msie|trident/i.exec(navigator.userAgent) || ["unknown"])[0].toLowerCase();
+        }
+        ISON() {
+            return navigator.onLine
         }
         LOGTX(args) {
             if (args.LOGTX === 'Log') {
