@@ -440,7 +440,7 @@
             return navigator.onLine
         }
         LANG() {
-            return navigator.language();
+            return navigator.language;
         }
         LOGTX(args) {
             if (args.LOGTX === 'Log') {
