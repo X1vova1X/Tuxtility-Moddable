@@ -20,3 +20,6 @@ Please read the license before distributing any extension based on Tuxtility
 ## Warning!!
 
 You must run this extension unsandboxed!
+
+## Join the discord!
+[![](https://dcbadge.limes.pink/api/server/JpEQJkyRgX)](https://discord.gg/JpEQJkyRgX)
