@@ -21,5 +21,8 @@ Please read the license before distributing any extension based on Tuxtility
 
 You must run this extension unsandboxed!
 
-## Join the discord!
+## Issues?
+
+You can report them the the issues tab but it is recomended to join the server because I am more active!
+
 [![](https://dcbadge.limes.pink/api/server/JpEQJkyRgX)](https://discord.gg/JpEQJkyRgX)
