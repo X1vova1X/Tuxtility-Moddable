@@ -454,7 +454,9 @@
             return navigator.onLine
         }
         LANG() {
-            return navigator.language;
+             var conf = confirm("This site wants to view what browser language you are using.\n Allow?"){
+                return navigator.language;
+             }
         }
         LOGTX(args) {
             if (args.LOGTX === 'Log') {
