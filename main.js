@@ -454,9 +454,13 @@
             return navigator.onLine
         }
         LANG() {
-             var conf = confirm("This site wants to view what browser language you are using.\n Allow?"){
+            var conf = confirm("This site wants to view what browser language you are using.\n Allow?")
+            if (conf == true) {
                 return navigator.language;
-             }
+            }
+            if (conf == false) {
+                return "Blocked"
+            }
         }
         LOGTX(args) {
             if (args.LOGTX === 'Log') {
