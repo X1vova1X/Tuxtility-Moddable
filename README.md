@@ -4,11 +4,24 @@ Tuxtility is an extension that has any blocks that you can imagine!
 
 ## Flavors
 
-Since Tuxtility is open-sourse, it is open to anyone!
+Tuxtility flavors are forks of Tuxtility where they have more  (or less) features than Tuxtility!
 
-This means you can customize Tuxtility however you want it to!
+For a fork of Tuxtility to be considered a offical flavor it must follow these terms
 
-Please read the license before distributing any extension based on Tuxtility
+- It must have new features it can't just be a recolor or name.
+- You must include credit to Tuxtility and to all of it's contributers (from the version it is based on) and the licence.
+- Must have a diffrent extension id to prevent conflics.
+- Must **NOT** contain any malicious code. (If it does you will be baned from the discord)
+- It must not interfere with the website/page as it is aganst many sites rules (eg, PenguinMod)
+- (NEW) Must include TPM (Tuxtility Permission Manager) (except for flavors older than 7/20/2025)
+- Must respect Scratch mod's permission manager.
+
+## TPM
+
+Tuxtility Permission Manager (TPM) adds features where a user can prevent the extension from showing information about there computer like their, OS, Browser, Browser Language and, Javascript code.
+
+This is added so people can't take information about others computers with out consent.
+
 
 ## Downloads
 
