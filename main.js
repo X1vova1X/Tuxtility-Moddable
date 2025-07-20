@@ -1,7 +1,7 @@
 /*
     This is a nightly version and is not made to be used for regular projects.
-    please get the extension via the releases or the discord server.
-
+    please get the extension via the releases or the discord server, https://discord.gg/JpEQJkyRgX
+    
     Please read the license before modifying and distributing
     https://tinyurl.com/tuxtility
 */
@@ -9,7 +9,6 @@
 (function (Scratch) {
     'use strict';
 
-    alert("This is an Nightly (pre-alpha) version of Tuxtility\nPlease get the latest version on the github repo.")
     if (!Scratch.extensions.unsandboxed) {
         alert('This Extension must run unsandboxed');
     }
@@ -406,7 +405,10 @@
             return Scratch.fetch(args["LINK"]).then(response => response.text()).then(text => text).catch(error => alert('An error has occured! \n ' + error))
         }
         JS(args) {
-            eval(args.TEXT);
+            var conf = confirm(`This site wants to execute javascript code.\n This can allow dangrous code to run on your browser.\n code: ${args.TEXT}\n Allow?`)
+            if (conf == true){
+                eval(args.TEXT);
+            }
         }
         NEXT() {
             history.forward();
@@ -431,10 +433,22 @@
             return document.title;
         }
         WHATOS() {
-            return window.navigator.platform
+            var conf = confirm("This site wants to view what OS you are using.\n Allow?")
+            if (conf == true){
+                return window.navigator.platform
+            }
+            if (conf == false){
+                return "Blocked"
+            }
         }
         WHATWEB() {
-            return (/firefox|chrome|safari|opera|edg|msie|trident/i.exec(navigator.userAgent) || ["unknown"])[0].toLowerCase();
+            var conf = confirm("This site wants to view what browser you are using.\n Allow?")
+            if(conf == true){
+                return (/firefox|chrome|safari|opera|edg|msie|trident/i.exec(navigator.userAgent) || ["unknown"])[0].toLowerCase();
+            }
+            if (conf == false){
+                return "Blocked"
+            }
         }
         ISON() {
             return navigator.onLine
@@ -469,7 +483,7 @@
             return Scratch.fetch('https://raw.githubusercontent.com/KoffeeJava/Entity-lol/refs/heads/main/secret/Tux.txt').then(response => response.text()).then(text => text).catch(error => alert('An error has occured! \n ' + error, '\n\n Make sure that your internet is on.'))
         }
         THIS() {
-            return "Nightly"
+            return "Nightly 2.2"
         }
     }
     Scratch.extensions.register(new TuxtiltiyJS());
