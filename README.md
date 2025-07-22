@@ -13,8 +13,9 @@ For a fork of Tuxtility to be considered a offical flavor it must follow these t
 - Must have a diffrent extension id to prevent conflics.
 - Must **NOT** contain any malicious code. (If it does you will be baned from the discord)
 - It must not interfere with the website/page as it is aganst many sites rules (eg, PenguinMod)
-- (NEW) Must include TPM (Tuxtility Permission Manager) (except for flavors older than 7/20/2025)
+- Must include TPM (Tuxtility Permission Manager) (except for flavors older than 7/20/2025)
 - Must respect Scratch mod's (eg, PenguinMod) permission manager.
+- Must be based on a stable version of Tuxtility.
 
 If all of these terms are met you may summit a ticket on the discord server.
 
