@@ -24,7 +24,8 @@
                 blocks: [
                     {
                         opcode: 'CREDIT',
-                        blockType: Scratch.BlockType.BUTTON,                        text: 'Credit',
+                        blockType: Scratch.BlockType.BUTTON,                        
+                        text: 'Credit',
                         disableMonitor: true,
                     },
                     {
