@@ -31,6 +31,8 @@ This is added so people can't take information about others computers with out c
 
 [![Static Badge](https://img.shields.io/badge/Tuxtility-Nightly-purple?style=for-the-badge)](https://github.com/KoffeeJava/Tuxtility/raw/refs/heads/main/main.js)
 
+[![Static Badge](https://img.shields.io/badge/Tuxtility-Base-gray?style=for-the-badge)](https://github.com/KoffeeJava/Tuxtility/raw/refs/heads/main/main.js)
+
 
 ## Warning!!
 
