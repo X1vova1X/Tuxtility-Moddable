@@ -1,6 +1,6 @@
 /*
-    This is a nightly version and is not made to be used for regular projects.
-    please get the extension via the releases or the discord server, https://discord.gg/JpEQJkyRgX
+    This is Tuxtility Base and is not for project use only developental use.
+    Look at https://github.com/KoffeeJava/Tuxtility to get the latest release.
     
     Please read the license before modifying and distributing
     https://tinyurl.com/tuxtility
