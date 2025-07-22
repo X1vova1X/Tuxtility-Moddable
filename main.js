@@ -133,7 +133,7 @@
                     {
                         opcode: 'POPUP',
                         blockType: Scratch.BlockType.COMMAND,
-                        text: 'Open Pop Up [LINK] Width [WID] Hieght [HIE]',
+                        text: 'Open Pop Up [LINK] Width [WID] Height [HIE]',
                         blockIconURI: tab,
                         arguments: {
                             LINK: {
