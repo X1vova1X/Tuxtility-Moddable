@@ -3,5 +3,5 @@
 - Get suggestions
 - ~~Remove text utilitys (useless)~~
 - Migrate version repo
-- Get better icons
+- ~~Get better icons~~
 - Hopefully get contributers
