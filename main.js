@@ -26,7 +26,7 @@
         getInfo() {
             return {
                 id: 'TUXJS',
-                name: 'Tuxtility',
+                name: 'InterTux',
                 blockIconURI: tux,
                 color1: '#ebba13',
                 color2: '#c79c02',
@@ -179,6 +179,11 @@
                                 defaultValue: 'Terminal'
                             }
                         }
+                    },
+                         {
+                        opcode: 'GEN',
+                        blockType: Scratch.BlockType.LABEL,
+                        text: 'General Website Utilities',
                     },
                     {
                         opcode: 'GET',
