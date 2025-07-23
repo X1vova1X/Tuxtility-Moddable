@@ -26,7 +26,7 @@
         getInfo() {
             return {
                 id: 'TUXJS',
-                name: 'InterTux',
+                name: 'Tuxtility',
                 blockIconURI: tux,
                 color1: '#ebba13',
                 color2: '#c79c02',
