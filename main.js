@@ -221,18 +221,21 @@
                     {
                         opcode: 'NEXT',
                         blockType: Scratch.BlockType.COMMAND,
+                        blockIconURI: inter,
                         text: 'Go Forward',
                         disableMonitor: true
                     },
                     {
                         opcode: 'BACK',
                         blockType: Scratch.BlockType.COMMAND,
+                        blockIconURI: inter,
                         text: 'Go Back',
                         disableMonitor: true
                     },
                     {
                         opcode: 'CTT',
                         blockType: Scratch.BlockType.COMMAND,
+                        blockIconURI: inter,
                         text: 'Change title to [TEXT]',
                         arguments: {
                             TEXT: {
@@ -244,6 +247,7 @@
                     {
                         opcode: 'FAVI',
                         blockType: Scratch.BlockType.COMMAND,
+                        blockIconURI: inter,
                         text: "Set favicon to [FAVI]",
                         disableMonitor: true,
                         arguments: {
@@ -256,6 +260,7 @@
                     {
                         opcode: 'LOGTX',
                         blockType: Scratch.BlockType.COMMAND,
+                        blockIconURI: inter,
                         text: '[LOGTX] [TEXT]',
                         disableMonitor: true,
                         arguments: {
@@ -272,24 +277,28 @@
                     {
                         opcode: 'CURTITLE',
                         blockType: Scratch.BlockType.REPORTER,
+                        blockIconURI: inter,
                         text: 'Current Title',
                         disableMonitor: true
                     },
                     {
                         opcode: 'WHATOS',
                         blockType: Scratch.BlockType.REPORTER,
+                        blockIconURI: inter,
                         text: "User's OS",
                         disableMonitor: true
                     },
                     {
                         opcode: 'WHATWEB',
                         blockType: Scratch.BlockType.REPORTER,
+                        blockIconURI: inter,
                         text: "User's Web Browser",
                         disableMonitor: true
                     },
                     {
                         opcode: 'LANG',
                         blockType: Scratch.BlockType.REPORTER,
+                        blockIconURI: inter,
                         disableMonitor: true,
                         text: "Browser's Languge"
                     },
@@ -299,6 +308,37 @@
                         blockIconURI: inter,
                         text: "Online?",
                         disableMonitor: true,
+                    },
+                    {
+                        opcode: 'ENCODE',
+                        blockType: Scratch.BlockType.LABEL,
+                        text: 'Encoding Utilitys'
+                    },
+                    {
+                        opcode: 'ENCODEURI',
+                        blockType: Scratch.BlockType.REPORTER,
+                        blockIconURI: inter,
+                        disableMonitor: true,
+                        text: "Encode to data:URI: [TEXT]",
+                        arguments: {
+                            TEXT: {
+                                type: Scratch.ArgumentType.STRING,
+                                defaultValue: 'Hello World!'
+                            },
+                        },
+                    },
+                    {
+                        opcode: 'ENCODEHEX',
+                        blockType: Scratch.BlockType.REPORTER,
+                        blockIconURI: inter,
+                        disableMonitor: true,
+                        text: "Encode to Hex: [TEXT]",
+                        arguments: {
+                            TEXT: {
+                                type: Scratch.ArgumentType.STRING,
+                                defaultValue: 'Hello World!'
+                            },
+                        },
                     },
                     {
                         opcode: 'EXTEN',
@@ -453,6 +493,20 @@
             if (args.LOGTX === 'Error') {
                 console.error(args.TEXT)
             }
+        }
+        ENCODEURI(args) {
+            var encodedString = btoa(args.TEXT);
+            var uri = "data:/application/octet-stream;base64," + encodedString
+            return uri
+        }
+        ENCODEHEX(args) {
+            let originalString = args.TEXT
+            let hexString = '';
+            for (let i = 0; i < originalString.length; i++) {
+            hexString += originalString.charCodeAt(i).toString(16);
+            }
+
+            return hexString
         }
         LATE() {
             return Scratch.fetch('https://raw.githubusercontent.com/KoffeeJava/Entity-lol/refs/heads/main/secret/Tux.txt').then(response => response.text()).then(text => text).catch(error => alert('An error has occured! \n ' + error, '\n\n Make sure that your internet is on.'))
