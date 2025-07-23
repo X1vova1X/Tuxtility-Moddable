@@ -281,6 +281,37 @@
                         text: "Online?",
                         disableMonitor: true,
                     },
+                    {
+                        opcode: 'ENCODE',
+                        blockType: Scratch.BlockType.LABEL,
+                        text: 'Encoding Utilitys'
+                    },
+                    {
+                        opcode: 'ENCODEURI',
+                        blockType: Scratch.BlockType.REPORTER,
+                        blockIconURI: inter,
+                        disableMonitor: true,
+                        text: "Encode to data:URI: [TEXT]",
+                        arguments: {
+                            TEXT: {
+                                type: Scratch.ArgumentType.STRING,
+                                defaultValue: 'Hello World!'
+                            },
+                        },
+                    },
+                    {
+                        opcode: 'ENCODEHEX',
+                        blockType: Scratch.BlockType.REPORTER,
+                        blockIconURI: inter,
+                        disableMonitor: true,
+                        text: "Encode to Hex: [TEXT]",
+                        arguments: {
+                            TEXT: {
+                                type: Scratch.ArgumentType.STRING,
+                                defaultValue: 'Hello World!'
+                            },
+                        },
+                    }
                 ],
                 menus: {
                     REDER: {
