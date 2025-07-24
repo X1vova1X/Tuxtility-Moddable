@@ -1,6 +1,6 @@
-# Tuxtility
+# Tuxtility Moddable
 
-Tuxtility is an extension that has any blocks that you can imagine!
+Tuxtility Moddable is a base for development flavors of Tuxtility.
 
 ## Flavors
 
@@ -8,19 +8,19 @@ Tuxtility flavors are forks of Tuxtility where they have more  (or less) feature
 
 For a fork of Tuxtility to be considered a offical flavor it must follow these terms
 
-- It must have new features it can't just be a recolor or name.
-- You must include credit to Tuxtility, all of it's contributers (from the version it is based on), and the licence.
+- It must have new features, it can't just be a recolor or name.
+- You must include credit to Tuxtility, all of it's contributers (from the version it is based on) and the licence.
 - Must have a different extension id to prevent conflics.
-- Must **NOT** contain any malicious code. (If it does you will be baned from the discord)
-- It must not interfere with the website/page as it is aganst many sites rules (eg, PenguinMod)
+- Must **NOT** contain any malicious code. (If it does you will be banned from the discord server)
+- It must not interfere with the website/page as it is against many sites rules (eg, PenguinMod)
 - Must respect Scratch mod's (eg, PenguinMod) permission manager and TPM.
 - Must be based on a stable version of Tuxtility.
 
-If all of these terms are met you may summit a ticket on the discord server.
+If all of these terms are met, you may submit a ticket on the discord server to become an official Tuxtility flavor.
 
 ## TPM
 
-Tuxtility Permission Manager (TPM) adds features where a user can prevent the extension from showing information about there computer like their, OS, Browser, Browser Language and, Javascript code.
+Tuxtility Permission Manager (TPM) adds features where a user can prevent the extension from showing information about possibly dangerous things, like their, OS, Browser, Browser Language and Javascript code execution.
 
 This is added so people can't take information about others computers with out consent.
 
@@ -35,12 +35,12 @@ This is added so people can't take information about others computers with out c
 
 
 
-## Warning!!
+## Warning
 
-You must run this extension unsandboxed!
+You must run the (modded) Tuxtility extension unsandboxed!
 
 ## Issues?
 
-You can report them the the issues tab but it is recomended to join the server because I am more active!
+You can report them the the issues tab of Tuxtility repository, but it is recomended to join the server, because the developer is more active there!
 
 [![](https://dcbadge.limes.pink/api/server/JpEQJkyRgX)](https://discord.gg/JpEQJkyRgX)
